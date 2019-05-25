@@ -1,8 +1,8 @@
 const path = require('path');
-const express = require('express');
-const morgan = require('morgan');
+const express = require('./node_modules/express');
+const morgan = require('./node_modules/morgan');
 const mongoose = require('mongoose');
-var bodyParser = require('body-parser');
+var bodyParser = require('./node_modules/body-parser');
 
 const app = express();
 
